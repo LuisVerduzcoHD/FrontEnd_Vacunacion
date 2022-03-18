@@ -1,0 +1,151 @@
+
+
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: linear-gradient(to right, rgb(255, 255, 255), rgb(199, 255, 252)) ; 
+    padding: 50px;
+
+}
+img{
+    align-content: center;
+    justify-content: center;
+    
+}
+     
+h1,h3,h4,h5,h6 {
+  position: relative;
+  margin: 1em 0 1.4em;
+  color: hsl(214, 81%, 59%);
+  padding: 10px;
+}
+h2{
+    padding: 50px;
+    color: rgb(24, 47, 77);
+}
+p{
+    padding: 50px;
+    color: #777777;
+}
+
+body {
+   
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 10;
+    font-size: 1em;
+    line-height: 1.7em;
+    color: #777777;
+    font-weight: normal;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+}
+nav a {
+    color: #494949;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    flex: 50%;
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+}
+section{
+    flex: 50%;
+    background-color:  hsl(214, 81%, 59%);
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+footer{
+
+    background-color: rgb(223, 240, 255);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+article{
+    position: absolute;
+    align-content: center;
+}
+    
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 10px;
+  color: #777777;
+}
+
+.boton{
+    width: 50px;
+    height: 100px;
+    color: rgb(38, 105, 248);
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+
+}
+.flex-container{
+    display: flex;
+    flex-wrap:wrap;
+    background-color:aliceblue;
+    padding: 10px;
+    align-items: baseline;
+    margin: 10px;
+    
+
+
+}
+
+.flex-container-buton{
+
+    background-color: rgb(30, 159, 245);
+    width: 350px;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    padding: 10px;
+    text-align: center;
+    color: rgb(193, 223, 250);
+  
+
+}
+
+.flex-container div {
+    
+    color: #494949;
+    background-color: aliceblue;
+    border-color: #e1ffff;
+    margin: 30px;
+    font-size: 30px;
+    
+
+}
